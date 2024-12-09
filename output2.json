@@ -1,0 +1,8 @@
+{
+  "variables": {
+    "hostname": "server1",
+    "ports": [80, 443, 8080],
+    "welcome_msg": "Welcome to server1!"
+  },
+  "_result": "Welcome to server1!"
+}

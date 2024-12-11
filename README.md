@@ -93,12 +93,12 @@ python cli.py <input.conf> <output.json>
 - Преобразование `example1.conf` в `output1.json`:
 
 ``` bash
-python cli.py examples/example1.conf output1.json
+python cli.py example1.conf output1.json
 
 ```
 - Преобразование `example2.conf` в `output2.json`:
 ``` bash
-python cli.py examples/example2.conf output2.json
+python cli.py example2.conf output2.json
 ```
 #### Просмотр результата
 После успешного выполнения команды, файл `output1.json` или `output2.json` будет содержать результат в формате JSON.
@@ -161,7 +161,7 @@ var welcome_msg := [[Welcome to .{hostname}.!]]
 ```
 **Команда для запуска:**
 ```bash
-python cli.py examples/example2.conf output2.json
+python cli.py example2.conf output2.json
 ```
 **Результат работы программы (`output2.json`):**
 ```json
